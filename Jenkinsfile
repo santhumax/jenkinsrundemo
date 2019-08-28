@@ -9,15 +9,6 @@ sh "aws cloudformation create-stack --stack-name mysantstack --template-body fil
           
           }
         }
-        stage('Test') { 
-            steps {
-                sh "ls"
-            }
-        }
-        stage('Deploy') { 
-            steps {
-               sh "ls"
-            }
-        }
+       
     }
 }
